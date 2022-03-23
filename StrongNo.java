@@ -22,7 +22,7 @@ private void factorial() {
 private static int factorial(int rem) {
 	// TODO Auto-generated method stub
 	if(rem==0)
-		return 1;
+		return 1;                           // recursion method
 	else
 		return(rem*factorial(rem-1));
 
